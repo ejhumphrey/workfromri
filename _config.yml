@@ -17,7 +17,8 @@ linkedin_username: "ejhumphrey"
 # markdown: kramdown
 # theme: jekyll-theme-minimal # Choose a simple theme like 'minima' or 'jekyll-theme-minimal'
 remote_theme: "mmistakes/minimal-mistakes"
-
+plugins:
+  - jekyll-include-cache 
 # Navbar links
 # This is where we define our main pages and set their order
 # These links will show in the site’s navigation bar
