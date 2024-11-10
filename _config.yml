@@ -7,7 +7,7 @@ url: "https://workfromri.com" # Full URL of the site
 # Author details
 author:
   name: "Eric Humphrey"
-  email: "humphrey.eric@gmail.com"
+  email: "eric@workfromri.com"
 
 # Social settings (optional - you can add links later or comment these out if you don't have them set up yet)
 twitter_username: "ejhumphrey"
@@ -17,9 +17,6 @@ linkedin_username: "ejhumphrey"
 # markdown: kramdown
 # theme: jekyll-theme-minimal # Choose a simple theme like 'minima' or 'jekyll-theme-minimal'
 remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-feed # Optional, if you'd like an RSS feed
-  - jekyll-seo-tag # Optional, for SEO enhancements
 
 # Navbar links
 # This is where we define our main pages and set their order
