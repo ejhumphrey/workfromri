@@ -1,1 +1,62 @@
+# _config.yml for workfromri.com
 theme: jekyll-theme-minimal
+
+# Site settings
+title: "WorkFromRI"
+description: "Connecting Rhode Island's remote workers with resources, events, and a community of like-minded professionals."
+baseurl: "" # Don't use any baseurl since it's hosted directly on GitHub Pages as the main site
+url: "https://workfromri.com" # Full URL of the site
+
+# Author details
+author:
+  name: "Eric Humphrey"
+  email: "humphrey.eric@gmail.com"
+
+# Social settings (optional - you can add links later or comment these out if you don't have them set up yet)
+twitter_username: "ejhumphrey"
+linkedin_username: "ejhumphrey"
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal # Choose a simple theme like 'minima' or 'jekyll-theme-minimal'
+plugins:
+  - jekyll-feed # Optional, if you'd like an RSS feed
+  - jekyll-seo-tag # Optional, for SEO enhancements
+
+# Navbar links
+# This is where we define our main pages and set their order
+# These links will show in the site’s navigation bar
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Events"
+    url: "/events"
+  - title: "About"
+    url: "/about"
+  - title: "Community Benefits"
+    url: "/community-benefits"
+  - title: "Get Involved"
+    url: "/get-involved"
+  - title: "Contact"
+    url: "/contact"
+
+# Collections (optional)
+# Useful if you plan to have a blog or news section; Jekyll will automatically add /blog/ to posts
+collections:
+  blog:
+    output: true
+    permalink: /blog/:title/
+
+# Exclude specific files and directories
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Permalinks structure
+# This helps keep clean URLs for your main pages
+permalink: /:title/
+
+# Footer details (optional)
+footer:
+  text: "© 2024 WorkFromRI. All rights reserved."
